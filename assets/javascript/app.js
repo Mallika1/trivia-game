@@ -16,79 +16,79 @@ var q3 = {
 	question:'I am the chairperson of the second largest food & Beverage business.',
 	options: ['Ophra Winfrey','Laurene Powell','Mackenzie Bezos','Indira Nooyi'],
 	rightAnswer: 'Argentina',
-	image:'<img src="assets/images/indira/jpg" id="image">',
-	description:'<div id="description">Indra Nooyi is an Indian American business executive, serving as chairperson of PepsiCo, the second largest food and beverage business in the world by net revenue, and as CEO for 12 years from 2006-2018. </div>'
+	image:'<img src="assets/images/indira.jpg" id="image">',
+	description:'<div id="description">Indra Nooyi is an Indian American business executive, serving as chairperson of PepsiCo </div>'
 };
 var q4 = {
-	question:'I applied ten times to Harvard Business School (HBS) and got rejected.?',
-	options: ['Jack Ma','EnglaJoseph TSai','Peng Li','Robin Li'],
-	rightAnswer: 'Brazil',
-	image:'<img src="assets/images/brazilDancing.gif" id="image">',
-	description:'<div id="description">Brazil has participated in every one of the 20 World Cup finals.</div>'
+	question:'I applied ten times to Harvard Business School (HBS) and got rejected.?', 
+	options: ['1. Jack Ma','2. EnglaJoseph TSai','3. Peng Li','4. Robin Li'],
+	rightAnswer: '1. JAck Ma',
+	image:'<img src="assets/images/JackMa.jpg" id="image">',
+	description:'<div id="description">Jack Ma Yun is a Chinese business magnate, investor, and philanthropist. He is the co-founder and executive chairman of the Alibaba Group.</div>'
 };
 var q5 = {
 	question:'I am m usually ranked #1 or #2 in the list of the worlds wealthiest people.Not bad for a college dropout.',
 	options: ['Jeff Bezos','Sunder Pichai','Satya Nadela','Bill Gates'],
-	rightAnswer: 'Italy',
-	image:'<img src="assets/images/italia90.jpg" id="image">',
-	description:'<div id="description">Italy was the host, Salvatore Schillaci was the top scorer of the tournament with 6 goals.</div>'
+	rightAnswer: 'Bill Gates',
+	image:'<img src="assets/images/billgates.jpg" id="image">',
+	description:'<div id="description">He is best known as the principal founder of Microsoft Corporation.</div>'
 };
 var qa1 = {
-	question:'Where was the first World Cup held?',
-	options: ['England','Uruguay','Germany','Italy'],
-	rightAnswer: 'Uruguay',
-	image:'<img src="assets/images/uruguay1930.jpg" id="image">',
-	description:'<div id="description">Uruguay was the host for the first World Cup. It was played in the year 1930.</div>'
+	question:'Where is machu picchu located?',
+	options: ['England','Uruguay','Germany','Peru'],
+	rightAnswer: 'Peru',
+	image:'<img src="assets/images/machupichu.jpg" id="image">',
+	description:'<div id="description">Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley.</div>'
 };
 var qa2 = {
-	question:'What player was sent off for headbutting an oponent in the 2006 final?',
-	options: ['Zinedine Zidane','Andrea Pirlo','Thierry Henry','Marco Materazzi'],
-	rightAnswer: 'Zinedine Zidane',
-	image:'<img src="assets/images/zidaneHeadbutt.gif" id="image">',
-	description:'<div id="description">Zinedine Zidane was sent off in his last-ever match, for headbutting Italy\'s Marco Materazzi\'s chest.</div>'
+	question:'Where is Chichén Itzá located?',
+	options: ['Spain','Italy','Mexico','Rome'],
+	rightAnswer: 'Mexico',
+	image:'<img src="assets/images/chichenItza.jpg" id="image">',
+	description:'<div id="description">Chichén Itzá is a complex of Mayan ruins on Mexicos Yucatán Peninsula. A massive step pyramid, known as El Castillo or Temple of Kukulcan. </div>'
 };
 var qa3 = {
-	question:'Who is the all time top scorer?',
-	options: ['Lionel Messi','Ronaldo Nazario de Lima','Pele','Miroslav Klose'],
-	rightAnswer: 'Miroslav Klose',
-	image:'<img src="assets/images/klose.gif" id="image">',
-	description:'<div id="description">Germany\'s Miroslav Klose went on to score a record 16 goals across 4 consecutive tournaments between 2002 and 2014.</div>'
+	question:'Where is Taj Mahal?',
+	options: ['Nepal','India','Pakistan','China'],
+	rightAnswer: 'India',
+	image:'<img src="assets/images/taj.jpg" id="image">',
+	description:'<div id="description">The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra.</div>'
 };
 var qa4 = {
-	question:'What teams played the final in Mexico 1986',
-	options: ['Brazil and West Germany','Argentina and West Germany','Italy and Brazil','Argentina and Brazil'],
-	rightAnswer: 'Argentina and West Germany',
-	image:'<img src="assets/images/argentina.jpg" id="image">',
-	description:'<div id="description">Argentina beat West Germany on the 1986 final</div>'
+	question:'Where is Highest Mountain located?',
+	options: ['Brazil','Argentina','Italy','Japan'],
+	rightAnswer: 'Nepal',
+	image:'<img src="assets/images/everest.jpg" id="image">',
+	description:'<div id="description">Mount Everest, known in Nepali as Sagarmatha and in Tibetan as Chomolungma, is Earth\'s highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. </div>'
 };
 var qa5 = {
-	question:'Where will the 2018 World Cup be played?',
-	options: ['Qatar','Germany','China','Russia'],
-	rightAnswer: 'Russia',
-	image:'<img src="assets/images/russia2018.jpg" id="image">',
-	description:'<div id="description">The 2018 World Cup in Russia will have a total of 13 sites, 16 stadiums, of which thirteen will be brand new and other three which will be completely refurbished. </div>'
+	question:'Where is Statue of Liberty located?',
+	options: ['Tokyo','New York','Beijing','Moscow'],
+	rightAnswer: 'New York',
+	image:'<img src="assets/images/liberty.jpg" id="image">',
+	description:'<div id="description">The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.</div>'
 };
 
 var qb1 = {
-	question:'Where was the first World Cup held?',
-	options: ['England','Uruguay','Germany','Italy'],
-	rightAnswer: 'Uruguay',
-	image:'<img src="assets/images/uruguay1930.jpg" id="image">',
+	question:'When was the first World Cup held?',
+	options: ['1930','1924','1941','1950'],
+	rightAnswer: '1930',
+	image:'<img src="assets/images/fifa.jpg" id="image">',
 	description:'<div id="description">Uruguay was the host for the first World Cup. It was played in the year 1930.</div>'
 };
 var qb2 = {
-	question:'What player was sent off for headbutting an oponent in the 2006 final?',
-	options: ['Zinedine Zidane','Andrea Pirlo','Thierry Henry','Marco Materazzi'],
-	rightAnswer: 'Zinedine Zidane',
-	image:'<img src="assets/images/zidaneHeadbutt.gif" id="image">',
-	description:'<div id="description">Zinedine Zidane was sent off in his last-ever match, for headbutting Italy\'s Marco Materazzi\'s chest.</div>'
+	question:'when is the super bowl 2019',
+	options: ['February 3','February 13','August 4','March 3'],
+	rightAnswer: 'February 3',
+	image:'<img src="assets/images/superball.jpg" id="image">',
+	description:'<div id="description">Super Bowl LIII, the 53rd Super Bowl and the 49th modern-era National Football League championship game, will decide the league champion for the 2018 NFL season. </div>'
 };
 var qb3 = {
-	question:'Who is the all time top scorer?',
-	options: ['Lionel Messi','Ronaldo Nazario de Lima','Pele','Miroslav Klose'],
-	rightAnswer: 'Miroslav Klose',
-	image:'<img src="assets/images/klose.gif" id="image">',
-	description:'<div id="description">Germany\'s Miroslav Klose went on to score a record 16 goals across 4 consecutive tournaments between 2002 and 2014.</div>'
+	question:'when will be 2020 Summer Olympics?',
+	options: ['Friday, July 24','Sunday, August 18','Sunday, July 18','Sunday, August 11'],
+	rightAnswer: 'Friday, July 24',
+	image:'<img src="assets/images/olympic2020.jpg" id="image">',
+	description:'<div id="description">The 2020 Summer Olympics is scheduled to take place from 24 July to 9 August 2020. </div>'
 };
 var qb4 = {
 	question:'What teams played the final in Mexico 1986',
@@ -98,10 +98,10 @@ var qb4 = {
 	description:'<div id="description">Argentina beat West Germany on the 1986 final</div>'
 };
 var qb5 = {
-	question:'Where will the 2018 World Cup be played?',
+	question:'Where 2018 World Cup was played?',
 	options: ['Qatar','Germany','China','Russia'],
 	rightAnswer: 'Russia',
-	image:'<img src="assets/images/russia2018.jpg" id="image">',
+	image:'<img src="assets/images/russia.png" id="image">',
 	description:'<div id="description">The 2018 World Cup in Russia will have a total of 13 sites, 16 stadiums, of which thirteen will be brand new and other three which will be completely refurbished. </div>'
 };
 
@@ -156,13 +156,13 @@ function  constructGamePage(){
     $("#mainDiv").empty();
    
     timeLeft =10;
-    $("#mainDiv").append('<div class="timeLeft">Time Left: <span id="time"></span></div>');
+    $("#mainDiv").append('<div class="timeLeft">Time Remaining: <span id="time"></span></div>');
     $("#time").text(timeLeft);
     if( currentQ === questions.length ){
       
         $resultDiv = $('<div class="resultDiv">');
         //summery //correct ans wrong ans unans
-        $resultDiv.append('<div class="result">Let\'s see how you did!</div>');
+        $resultDiv.append('<div class="result m-4">Let\'s see how you did!</div>');
         $resultDiv.append('<div class="score" id="">Correct Answers: '+correctAns+'</div>');
         $resultDiv.append('<div class="score" id="">Wrong Answers: '+wrongAns+'</div>')
         $resultDiv.append('<div class="score" id="">Unanswered Questions: '+notAns+'</div>')
@@ -234,7 +234,7 @@ function timer(){
         notAns++ ;
         clearInterval(counter);
         $("#mainDiv").empty();
-        $("#mainDiv").append('<div class="timeLeft">Time Left: <span id="time"></span></div>');
+        $("#mainDiv").append('<div class="timeLeft">Time Remaining: <span id="time"></span></div>');
         $resultDiv = $('<div class="resultDiv">');
      
         $resultDiv.append('<div class="result">Out of Time!</div>');
@@ -304,15 +304,15 @@ $('.panel').on('click', function() {
     let catVal = $(this).attr('data_category');
     if(catVal === "BUSINESS")
     {
-        questions = [q1,q2];
+        questions = [q1,q2,q3,q4,q5];
     }
     else if(catVal === "TRAVEL")
     {
-        questions = [qa1,qa2];
+        questions = [qa1,qa2,qa3,qa4,qa5];
     }
     else if(catVal === "SPORTS")
     {
-        questions = [qb1,qb2];
+        questions = [qb1,qb2,qb3,qb4,qb5];
     }
     if(questions.length > 0)
     init();

@@ -16,7 +16,7 @@ body{
 	border:2px;
 	background-color:orange;
 	width:60%;
-	height:450px;
+	height:500px;
 	margin:auto;
 	margin-top:60px;
 	padding:20px;
@@ -25,6 +25,7 @@ body{
 }
 .mainHeading{
 	font-family:the-dreamer, calibri, sans-serif ;
+	background-color:blue;
 	text-align:center;
 	font-size:60px;
 	text-shadow: 7px 7px 7px red;
@@ -40,13 +41,6 @@ body{
 	font-size: 20px; 
 }
 
-.title{
-	font-size: 30px;
-	color:white;
-	text-shadow: 5px 5px 5px red;
-	margin-bottom:20px;
-	text-align:center;
-}
 .displyQADiv{
 	padding:10px;
 	text-align:center;
@@ -57,38 +51,24 @@ body{
 	text-align:center;
 	font-size: 30px;
 	font-weight:bold;
-	
-	/* margin-left:40px; */
+
 }
 .timeLeft{
-	/* padding:20px; */
 	font-size: 25px;
-	/* margin-left:20px; */
 	text-align:center;
 }
 
-
-
-/*  */
 .innerDiv{
 	padding:20px;
 	opacity:0.5;
-	/* border:2px black ; */
 	background-color: black;
 	font-weight: bold;
-
-	
 }
 
-/* .panel1:hover , .panel2:hover ,.panel3:hover{
-    opacity:1;
-   
-} */
 .rightWrong {
 	text-align:center;
 	font-size:40px;
 	color:#FFFAFA;
-	/* margin:20px 40px 40px 40px; */
 	text-shadow:1px 2px 4px black;
 }
 .description {
