@@ -7,36 +7,36 @@ var q1 = {
 };
 var q2 = {
 	question:"My Model T came in any color as long as it was black.",
-	options: ['Henry Ford','Howward Huges','William C. Durant','Louis-Joseph Chevrolet'], 
-	rightAnswer: 'Henry Ford',
+	options: ['1. Henry Ford','2. Howward Huges','3. William C. Durant','4. Louis-Joseph Chevrolet'], 
+	rightAnswer: '1. Henry Ford',
 	image:'<img src="assets/images/modelT.jpg" id="image">',
 	description:'<div id="description">Henry Ford the founder of the Ford Motor Company,</div>'
 };
 var q3 = {
 	question:'I am the chairperson of the second largest food & Beverage business.',
-	options: ['Ophra Winfrey','Laurene Powell','Mackenzie Bezos','Indira Nooyi'],
-	rightAnswer: 'Argentina',
+	options: ['1. Ophra Winfrey','2. Laurene Powell','3. Mackenzie Bezos','4. Indira Nooyi'],
+	rightAnswer: '4. Indira Nooyi',
 	image:'<img src="assets/images/indira.jpg" id="image">',
 	description:'<div id="description">Indra Nooyi is an Indian American business executive, serving as chairperson of PepsiCo </div>'
 };
 var q4 = {
 	question:'I applied ten times to Harvard Business School (HBS) and got rejected.?', 
-	options: ['1. Jack Ma','2. EnglaJoseph TSai','3. Peng Li','4. Robin Li'],
+	options: ['1. Jack Ma','2. Joseph TSai','3. Peng Li','4. Robin Li'],
 	rightAnswer: '1. JAck Ma',
 	image:'<img src="assets/images/JackMa.jpg" id="image">',
 	description:'<div id="description">Jack Ma Yun is a Chinese business magnate, investor, and philanthropist. He is the co-founder and executive chairman of the Alibaba Group.</div>'
 };
 var q5 = {
-	question:'I am m usually ranked #1 or #2 in the list of the worlds wealthiest people.Not bad for a college dropout.',
-	options: ['Jeff Bezos','Sunder Pichai','Satya Nadela','Bill Gates'],
+	question:'I am usually ranked #1 or #2 in the list of the worlds wealthiest people.Not bad for a college dropout.',
+	options: ['1. Jeff Bezos','2. Sunder Pichai','3. Satya Nadela','4. Bill Gates'],
 	rightAnswer: 'Bill Gates',
 	image:'<img src="assets/images/billgates.jpg" id="image">',
 	description:'<div id="description">He is best known as the principal founder of Microsoft Corporation.</div>'
 };
 var qa1 = {
 	question:'Where is machu picchu located?',
-	options: ['England','Uruguay','Germany','Peru'],
-	rightAnswer: 'Peru',
+	options: ['1. England','2. Uruguay','3. Germany','4. Peru'],
+	rightAnswer: '4. Peru',
 	image:'<img src="assets/images/machupichu.jpg" id="image">',
 	description:'<div id="description">Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley.</div>'
 };
@@ -279,6 +279,7 @@ function userSelection(){
         clearInterval(counter);
         $resultDiv.empty();
         $resultDiv.append('<div class="rightWrong">Wrong!</div>');
+        $resultDiv.append('<div class="score">The Correct Answer Was : '+questions[currentQ].rightAnswer+'</div>');
         $resultDiv.append(questions[currentQ].description);
         $resultDiv.append(questions[currentQ].image);
         $("#mainDiv").append($resultDiv);
