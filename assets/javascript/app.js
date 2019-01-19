@@ -246,7 +246,7 @@ function timer(){
         
         
         currentQ++;
-        setTimeout(constructGamePage,2000);
+        setTimeout(constructGamePage,5000);
     }
     timeLeft-- ;
     $("#time").text(timeLeft);
@@ -285,7 +285,7 @@ function userSelection(){
         wrongAns++;
      }
      currentQ++;
-     setTimeout(constructGamePage,2000);
+     setTimeout(constructGamePage,5000);
 
     })
 
