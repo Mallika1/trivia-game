@@ -4,7 +4,7 @@ Trivia Game
 
 This game created with Bootstrap JavaScript, jQuery, HTML and CSS.
 
- ![Alt Text](https://mallika1.github.io/trivia-game/trivia_game.JPG)
+ ![Alt Text](https://mallika1.github.io/trivia-game/assets/images/trivia_game.JPG)
 
 
 1. Players can select different topic based on their interest. 
