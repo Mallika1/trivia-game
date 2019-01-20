@@ -1,6 +1,6 @@
 var q1 = {
 	question:'I am the CEO of private space transport company and leading electric car company?',
-	options: ['Steve Jobs','Micheal Jr.','Elon Musk','Henry Ford'],
+	options: ['Steve Jobs','Michael Jr.','Elon Musk','Henry Ford'],
 	rightAnswer: 'Elon Musk',
 	image:'<img src="assets/images/Elon-Musk1.jpg" id="image">',
 	description: '<div id="description">Elon Musk the founder, CEO, and lead designer of SpaceX and co-founder, CEO, and product architect of Tesla, Inc.</div>'
@@ -91,18 +91,18 @@ var qb3 = {
 	description:'<div id="description">The 2020 Summer Olympics is scheduled to take place from 24 July to 9 August 2020. </div>'
 };
 var qb4 = {
-	question:'What teams played the final in Mexico 1986',
-	options: ['Brazil and West Germany','Argentina and West Germany','Italy and Brazil','Argentina and Brazil'],
-	rightAnswer: 'Argentina and West Germany',
-	image:'<img src="assets/images/argentina.jpg" id="image">',
-	description:'<div id="description">Argentina beat West Germany on the 1986 final</div>'
+	question:'When did Wimbledon turn professional?',
+	options: ['1967','1977','1957','1987'],
+	rightAnswer: '1967',
+	image:'<img src="assets/images/wimbledon.jpg" id="image">',
+	description:'<div id="description">The Wimbledon World Lawn Tennis Professional Championships was a men\'s tennis tournament held in August 1967.</div>'
 };
 var qb5 = {
-	question:'Where 2018 World Cup was played?',
-	options: ['Qatar','Germany','China','Russia'],
-	rightAnswer: 'Russia',
-	image:'<img src="assets/images/russia.png" id="image">',
-	description:'<div id="description">The 2018 World Cup in Russia will have a total of 13 sites, 16 stadiums, of which thirteen will be brand new and other three which will be completely refurbished. </div>'
+	question:'Which year Michael Schumacher made his debut in Formula One?',
+	options: ['1991','1992','1994','1995'],
+	rightAnswer: '1991',
+	image:'<img src="assets/images/Schumacher.jpg" id="image">',
+	description:'<div id="description">Schumacher made his Formula One debut with the Jordan-Ford team at the 1991 Belgian Grand Prix. </div>'
 };
 
 
@@ -143,13 +143,8 @@ let wrongAns = 0
 let notAns = 0 ;
 // let $optionDiv;
 function init(){
-    //construct the page with the q1 and timer .
-    // timeLeft =10;
-    //first time
-   
-   
+
     constructGamePage();
-   
 }
 
 function  constructGamePage(){
@@ -161,7 +156,7 @@ function  constructGamePage(){
     if( currentQ === questions.length ){
       
         $resultDiv = $('<div class="resultDiv">');
-        //summery //correct ans wrong ans unans
+        //correct ans wrong ans unans
         $resultDiv.append('<div class="result m-4">Let\'s See How You Did!</div>');
         $resultDiv.append('<div class="score" id="">Correct Answers: '+correctAns+'</div>');
         $resultDiv.append('<div class="score" id="">Wrong Answers: '+wrongAns+'</div>')
@@ -201,27 +196,27 @@ function displayQA()
 
 function reStart(){
    
-        $("#mainDiv").empty();
+    $("#mainDiv").empty();
 
-        currentQ = 0;
-        correctAns = 0;
-        wrongAns = 0;
-        notAns = 0;
-        counter = 0;
+    currentQ = 0;
+    correctAns = 0;
+    wrongAns = 0;
+    notAns = 0;
+    counter = 0;
         
-        init();
+    init();
  
 }
 function newGame(){
   
-        $("#mainDiv").empty();
-        currentQ = 0;
-        correctAns = 0;
-        wrongAns = 0;
-        notAns = 0;
-        counter = 0;
+    $("#mainDiv").empty();
+    currentQ = 0;
+    correctAns = 0;
+    wrongAns = 0;
+    notAns = 0;
+    counter = 0;
       
-        createMainPage();
+    createMainPage();
  
 }
 
@@ -230,21 +225,16 @@ function timer(){
   
     if(timeLeft ===1){
         //print time up
-     
         notAns++ ;
         clearInterval(counter);
         $("#mainDiv").empty();
         $("#mainDiv").append('<div class="timeLeft">Time Remaining: <span id="time"></span></div>');
         $resultDiv = $('<div class="resultDiv">');
-     
         $resultDiv.append('<div class="result">Out of Time!</div>');
         $resultDiv.append('<div class="score" id="">The Correct Answer Was : '+questions[currentQ].rightAnswer+'</div>');
-        // $resultDiv.append('<div class="score" id=""> '+ questions[currentQ].description +'</div>');
-       
+        
         $resultDiv.append(questions[currentQ].image);
         $("#mainDiv").append($resultDiv);
-        
-        
         currentQ++;
         setTimeout(constructGamePage,5000);
     }
@@ -279,8 +269,7 @@ function userSelection(){
         clearInterval(counter);
         $resultDiv.empty();
         $resultDiv.append('<div class="rightWrong">Wrong!</div>');
-        $resultDiv.append('<div class="score">The Correct Answer Is : '+questions[currentQ].rightAnswer+'</div>');
-        // $resultDiv.append(questions[currentQ].description);
+        $resultDiv.append('<div class="score">The Correct Answer Is : '+questions[currentQ].rightAnswer+'</div>');      
         $resultDiv.append(questions[currentQ].image);
         $("#mainDiv").append($resultDiv);
         wrongAns++;
@@ -292,12 +281,6 @@ function userSelection(){
 
 }
 
-  function clearTimer()
-  {
-    clearInterval(counter);
-	counter = 0;
-  }
- 
 //div on click 
 function onCardClick(){
 $('.panel').on('click', function() {
@@ -324,7 +307,7 @@ $('.panel').on('click', function() {
 
 
 function createMainPage(){
-    $("#mainDiv").append ( '<h4 class="subHeading mt-4">What Will You Play Today</h4>');
+    $("#mainDiv").append ( '<h4 class="subHeading mt-3">What Will You Play Today</h4>');
     
     $("#mainDiv").append('<div class="row d-flex justify-content-center mb-5">');
 
