@@ -77,14 +77,14 @@ var qb1 = {
 	description:'<div id="description">Uruguay was the host for the first World Cup. It was played in the year 1930.</div>'
 };
 var qb2 = {
-	question:'when is the super bowl 2019',
+	question:'When is the super bowl 2019',
 	options: ['February 3','February 13','August 4','March 3'],
 	rightAnswer: 'February 3',
 	image:'<img src="assets/images/superball.jpg" id="image">',
 	description:'<div id="description">Super Bowl LIII, the 53rd Super Bowl and the 49th modern-era National Football League championship game, will decide the league champion for the 2018 NFL season. </div>'
 };
 var qb3 = {
-	question:'when will be 2020 Summer Olympics?',
+	question:'When will be 2020 Summer Olympics?',
 	options: ['Friday, July 24','Sunday, August 18','Sunday, July 18','Sunday, August 11'],
 	rightAnswer: 'Friday, July 24',
 	image:'<img src="assets/images/olympic2020.jpg" id="image">',
@@ -155,14 +155,14 @@ function init(){
 function  constructGamePage(){
     $("#mainDiv").empty();
    
-    timeLeft =10;
+    timeLeft =25;
     $("#mainDiv").append('<div class="timeLeft">Time Remaining: <span id="time"></span></div>');
     $("#time").text(timeLeft);
     if( currentQ === questions.length ){
       
         $resultDiv = $('<div class="resultDiv">');
         //summery //correct ans wrong ans unans
-        $resultDiv.append('<div class="result m-4">Let\'s see how you did!</div>');
+        $resultDiv.append('<div class="result m-4">Let\'s See How You Did!</div>');
         $resultDiv.append('<div class="score" id="">Correct Answers: '+correctAns+'</div>');
         $resultDiv.append('<div class="score" id="">Wrong Answers: '+wrongAns+'</div>')
         $resultDiv.append('<div class="score" id="">Unanswered Questions: '+notAns+'</div>')
@@ -279,7 +279,7 @@ function userSelection(){
         clearInterval(counter);
         $resultDiv.empty();
         $resultDiv.append('<div class="rightWrong">Wrong!</div>');
-        $resultDiv.append('<div class="score">The Correct Answer Was : '+questions[currentQ].rightAnswer+'</div>');
+        $resultDiv.append('<div class="score">The Correct Answer Is : '+questions[currentQ].rightAnswer+'</div>');
         // $resultDiv.append(questions[currentQ].description);
         $resultDiv.append(questions[currentQ].image);
         $("#mainDiv").append($resultDiv);

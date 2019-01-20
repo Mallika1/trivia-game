@@ -5,33 +5,35 @@
 body{
 	font-family: calibri, sans-serif ;
 	background-image:url(../images/bg1.jpg);
-	/* background-repeat: no-repeat; */
+	 background-repeat: no-repeat; 
 	background-size: cover;
-	color:white;
+	color:black;
 
 
 }
 .mainDiv {
 	
 	border:2px;
-	background-color:grey;
+	/* background-color:grey; */
 	width:60%;
 	height:500px;
 	margin:auto;
 	margin-top:60px;
 	padding:20px;
 	font-size:30px;
-	opacity:0.7;
+	opacity:0.5;
 }
 .mainHeading{
 	font-family:the-dreamer, calibri, sans-serif ;
-	background-color:grey;
+	/* background-color:grey;/ */
 	text-align:center;
 	font-size:80px;
 	text-shadow: 7px 7px 7px blue;
 }
 .subHeading{
+	font-family:the-dreamer, calibri, sans-serif ;
 	text-align:center;
+	font-size:40px;
 }
 
 .panel{
@@ -39,13 +41,13 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-size: 20px; 
-	opacity:0.8;
+	/* opacity:0.8; */
 }
 .panel:hover {
 	opacity:1;
 }
 .mainDiv:hover{
-	opacity:0.8;
+	opacity:1;
 }
 
 .displyQADiv{
@@ -61,6 +63,7 @@ body{
 
 }
 .timeLeft{
+	/* font-family:the-dreamer, calibri, sans-serif ; */
 	font-size: 25px;
 	text-align:center;
 }
@@ -70,25 +73,26 @@ body{
 	opacity:0.5;
 	background-color: black;
 	font-weight: bold;
+	color:white;
 }
 
 .rightWrong {
 	text-align:center;
 	font-size:40px;
-	color:#FFFAFA;
-	text-shadow:1px 2px 4px black;
+	/* color:black; */
+	/* text-shadow:1px 2px 4px black; */
 }
 .description {
 	text-align:center;
 	font-size:30px;
-	color:#FFFAFA;
+	/* color:#FFFAFA; */
 	margin:20px 40px 40px 40px;
 	text-shadow:1px 2px 4px black;
 }
 .resultDiv{
 	text-align:center;
 	font-size: 25px;
-	color:white;
+	/* color:white; */
 	cursor:pointer;
 }
 .result {
@@ -103,22 +107,20 @@ body{
 }
 .restartBtn {
 	text-align:center;
-	font-size:18px;
-	/* color:#FFFAFA; */
+	font-size:22px;
+
 	margin:20px ;
-	/* background-color:#696969; */
-	/* padding:15px; */
-	/* font-family: 'Cinzel Decorative', cursive; */
+	background-color:Transparent;
+	font-weight:bold;
+	
 }
 .newGameBtn {
 	text-align:center;
-	font-size:18px;
+	font-size:22px;
 	margin:20px ;
-	/* color:#FFFAFA; */
-	/* margin:10px 350px 0 350px; */
-	/* background-color:#696969; */
-	/* padding:15px; */
-	/* font-family: 'Cinzel Decorative', cursive; */
+	background-color:Transparent;
+	font-weight:bold;
+	
 }
 .category{
 
@@ -141,5 +143,6 @@ body{
 	height:180px;
 	width :380px;
 	margin-top:10px;
+	border:2px solid black;
 }
 
