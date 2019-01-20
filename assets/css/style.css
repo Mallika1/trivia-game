@@ -4,8 +4,8 @@
 }
 body{
 	font-family: calibri, sans-serif ;
-	background-image:url(../images/bg.jpg);
-	background-repeat: no-repeat;
+	background-image:url(../images/bg1.jpg);
+	/* background-repeat: no-repeat; */
 	background-size: cover;
 	color:white;
 
@@ -14,7 +14,7 @@ body{
 .mainDiv {
 	
 	border:2px;
-	background-color:orange;
+	background-color:grey;
 	width:60%;
 	height:500px;
 	margin:auto;
@@ -25,10 +25,10 @@ body{
 }
 .mainHeading{
 	font-family:the-dreamer, calibri, sans-serif ;
-	background-color:blue;
+	background-color:grey;
 	text-align:center;
-	font-size:60px;
-	text-shadow: 7px 7px 7px red;
+	font-size:80px;
+	text-shadow: 7px 7px 7px blue;
 }
 .subHeading{
 	text-align:center;
@@ -39,6 +39,13 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-size: 20px; 
+	opacity:0.8;
+}
+.panel:hover {
+	opacity:1;
+}
+.mainDiv:hover{
+	opacity:0.8;
 }
 
 .displyQADiv{
@@ -80,7 +87,7 @@ body{
 }
 .resultDiv{
 	text-align:center;
-	font-size: 20px;
+	font-size: 25px;
 	color:white;
 	cursor:pointer;
 }
